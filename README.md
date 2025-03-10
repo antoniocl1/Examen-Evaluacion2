@@ -63,3 +63,4 @@ aws ec2 run-instances \
 ![](capturas/ejercicio2/terraformshow.png)
 
 # Ejercicio 3
+
