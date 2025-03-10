@@ -1,0 +1,5 @@
+services:
+  web:
+    image: antoniocl1/examen-iaw-2-eval:latest
+    ports:
+      - "80:80"
