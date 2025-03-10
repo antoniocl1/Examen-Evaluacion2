@@ -71,3 +71,18 @@ ansible-playbook -i inventory/inventario main.yaml
 ![](capturas/ejercicio3/ejecucionansible.png)
 
 # Ejercicio 4
+
+## Ejecución de DockerFile
+![](capturas/ejercicio3/dockerfile.png)
+
+## Docker images para ver que se han creado correctamente los contenedores
+Tengo 2, porque e primero que hice no llevaba el nombre del repo.
+![](capturas/ejercicio3/dockerimages.png)
+
+# Ejercicio 5
+Primero hago login en docker con 
+```bash
+docker login -u antoniocl1
+```
+Ahora debemos introducir el token generado en Docker Hub, yo me he generado un token para este examen
+![](capturas/ejercicio5publicar/token.png)
