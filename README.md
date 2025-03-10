@@ -85,4 +85,6 @@ Primero hago login en docker con
 docker login -u antoniocl1
 ```
 Ahora debemos introducir el token generado en Docker Hub, yo me he generado un token para este examen
-![](capturas/ejercicio5publicar/token.png)
+![](capturas/ejercicio5/token.png)
+Lo ponemos y ya estaremos con la sesión iniciada:
+![](capturas/ejercicio5/sesioniniciada.png)
