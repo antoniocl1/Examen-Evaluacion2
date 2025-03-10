@@ -73,11 +73,11 @@ ansible-playbook -i inventory/inventario main.yaml
 # Ejercicio 4
 
 ## Ejecución de DockerFile
-![](capturas/ejercicio3/dockerfile.png)
+![](capturas/ejercicio4/dockerfile.png)
 
 ## Docker images para ver que se han creado correctamente los contenedores
 Tengo 2, porque e primero que hice no llevaba el nombre del repo.
-![](capturas/ejercicio3/dockerimages.png)
+![](capturas/ejercicio4/dockerimages.png)
 
 # Ejercicio 5
 Primero hago login en docker con 
