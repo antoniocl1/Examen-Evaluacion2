@@ -46,3 +46,4 @@ aws ec2 run-instances \
 ![](capturas/ejercicio1/instancialanzada.png)
 
 # Ejercicio 2
+
