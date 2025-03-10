@@ -86,5 +86,21 @@ docker login -u antoniocl1
 ```
 Ahora debemos introducir el token generado en Docker Hub, yo me he generado un token para este examen
 ![](capturas/ejercicio5/token.png)
-Lo ponemos y ya estaremos con la sesión iniciada:
+Copiamos y pegams la password ya estaremos con la sesión iniciada:
 ![](capturas/ejercicio5/sesioniniciada.png)
+
+Ahora haremos
+```bash
+sudo docker run -d -p 80:80 antoniocl1/examen-iaw-2-eval
+```
+Y después 
+```bash
+sudo docker push antoniocl1/examen-iaw-2-eval:latest
+```
+
+ Para configurar github actionsDebemos tener sincronizado Github con Docker Hub para empezar, después debemos de crear 2 "Secrets" en nuestro repo para las Github Actions, (creo que con el nombre de cada secreto se entiende para lo que sirve cada uno de ellos), deben de quedar así:
+
+DOCKERHUB_USERNAME= antoniocl1
+DOCKERHUB_TOKEN= Mi token creado en el paso 3 Esto lo hacemos dentro de nuestro repo, en el apartado de "Settings", vamos a "Secrets and variables" y específicamente a "Actions".
+![](capturas/ejercicio5/secretousername.png)
+![](capturas/ejercicio5/secretos.png)
