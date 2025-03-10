@@ -64,3 +64,10 @@ aws ec2 run-instances \
 
 # Ejercicio 3
 
+## Comando de para ejecutar el playbook
+```bash
+ansible-playbook -i inventory/inventario main.yaml
+```
+![](capturas/ejercicio3/ejecucionansible.png)
+
+# Ejercicio 4
