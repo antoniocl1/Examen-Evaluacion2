@@ -13,7 +13,7 @@ variable "sg_description" {
 variable "ami_id" {
   description = "ID de AMI"
   type        = string
-  default     = "ami-04b4f1a9cf54c11d0"  
+  default     = "ami-04b4f1a9cf54c11d0"
 }
 
 variable "instance_type" {

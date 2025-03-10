@@ -47,3 +47,19 @@ aws ec2 run-instances \
 
 # Ejercicio 2
 
+## Terraform init
+![](capturas/ejercicio2/terraforminit.png)
+
+## Terraform validate
+![](capturas/ejercicio2/terraformvalidate.png)
+
+## Terraform plan
+![](capturas/ejercicio2/terraformplan.png)
+
+## Terraform apply
+![](capturas/ejercicio2/terraformapply.png)
+
+## Terraform show
+![](capturas/ejercicio2/terraformshow.png)
+
+# Ejercicio 3
